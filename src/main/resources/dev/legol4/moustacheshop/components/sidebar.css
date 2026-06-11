@@ -1,0 +1,41 @@
+.sidebar {
+    -fx-border-color: #E4E4E7;
+    -fx-border-width: 0 1 0 0;
+}
+
+.sidebar-button {
+    -fx-pref-width: 180px;
+    -fx-text-fill: #09090B;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: #F4F4F5;
+}
+
+.primary {
+    -fx-background-color: #18181B;
+    -fx-text-fill: #FFFFFF;
+}
+
+.primary:hover {
+    -fx-background-color: #18181BE6;
+}
+
+.outline {
+    -fx-border-color: #E4E4E7;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+    -fx-text-fill: #09090B;
+}
+
+.outline:hover {
+    -fx-background-color: #F4F4F5;
+}
+
+.sidebar-svg-icon {
+    -fx-fill: black;
+}
+
+.primary .sidebar-svg-icon {
+    -fx-fill: #FAFAFA;
+}

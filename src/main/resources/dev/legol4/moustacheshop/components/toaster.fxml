@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<HBox styleClass="container-toaster" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.legol4.moustacheshop.components.Toaster">
+   <children>
+      <HBox fx:id="toaster" alignment="CENTER_LEFT" prefWidth="300.0" styleClass="toaster">
+         <children>
+            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="24.0" prefWidth="24.0">
+               <children>
+                  <SVGPath fx:id="svgData" fillRule="EVEN_ODD" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label fx:id="lblMessage" text="message">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+   <stylesheets>
+      <URL value="@../styles/globals.css" />
+      <URL value="@toaster.css" />
+   </stylesheets>
+</HBox>
