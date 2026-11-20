@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="images/logo.png" alt="Logo Tienda Bigotes" width="160">
-</p>
-
 <h1 align="center">Tienda Bigotes – Sistema de Gestión de Ventas e Inventarios</h1>
 
 <p align="center">
@@ -35,15 +31,13 @@ Nació como proyecto del curso **Técnicas de Programación Orientada a Objetos*
 
 ## Capturas de pantalla
 
-<!-- Sube las imágenes a la carpeta docs/capturas y ajusta los nombres si son distintos -->
-
-| Inicio de sesión | Registro de venta |
+| Registro de venta | Inventario |
 |---|---|
-| ![Inicio de sesión](docs/capturas/login.png) | ![Registro de venta](docs/capturas/ventas.png) |
+| ![Registro de venta](docs/capturas/venta.png) | ![Inventario](docs/capturas/inventario.png) |
 
-| Inventario | Usuarios |
+| Registrar producto | Confirmación al eliminar |
 |---|---|
-| ![Inventario](docs/capturas/inventario.png) | ![Usuarios](docs/capturas/usuarios.png) |
+| ![Registrar producto](docs/capturas/nuevo-producto.png) | ![Eliminar producto](docs/capturas/eliminar-producto.png) |
 
 ## Tecnologías
 
